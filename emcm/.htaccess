@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Ανακατεύθυνση όλων των αιτημάτων από το w3id.org/emcm στο τελικό URL των αρχείων μου
+RewriteRule ^(.*)$ http://tropos.org.gr [R=301,L]
